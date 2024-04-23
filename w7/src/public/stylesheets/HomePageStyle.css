@@ -1,0 +1,60 @@
+body{
+    
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif; 
+    align-items: center;
+    justify-content: center;
+}
+
+#led-btn{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 12px;
+}
+#sensor-list-container{
+    border-radius: 20px;
+    background-color: #d3eeef;
+    width: 300px;
+}
+.sensor-data-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    size: 20px;
+    border-bottom: 1px solid #ccc ;
+    height: 50px;
+    color: #000000;
+    padding: 10px 20px;
+}
+
+#home-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 50px;
+    flex-wrap:1 ;
+}
+#home-body >div{
+    flex : 1;
+}
+#dht-data{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:1 ;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+#dht-data >div{
+    display: flex;
+    flex-wrap:1 ;
+    height: 60px;
+    width: 80%;
+}
